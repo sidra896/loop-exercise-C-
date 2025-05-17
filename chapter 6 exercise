@@ -1,0 +1,920 @@
+//First 50 Question Problem
+
+#include<iostream>
+#include<iomanip>
+#include<cmath>
+using namespace std;
+int main()
+{
+//     int a=1,b=5;
+//     cout<<"a\t\tb"<<endl; 
+//     while(a<=5)
+// {
+//     cout<<a<<"\t\t"<<b<<endl;
+//     a++;
+//     b--;
+// }
+
+
+
+
+//   int num=1,sum=0;
+//   cout<<"num\t\tsum"<<endl;
+//   while(num<=5)
+//   { 
+//     sum+=num;
+//     cout<<num<<"\t\t"<<sum<<endl;
+//     num++;
+//   }
+
+
+// float c=4,r=1;
+// while(c<=100)
+// {
+//      r=r+1/c;
+//      c+=4;
+
+// }
+// cout<<"Result is::"<<r;
+
+
+// char ch;
+// for(ch='A';ch<='Z';ch++)
+// cout<<ch<<"\t";
+
+
+
+
+
+
+
+    // int n, num;
+    // int max, min;
+    // float sum = 0;
+
+    // cout << "Enter how many numbers: ";
+    // cin >> n;
+
+    // for (int i = 1; i <= n; i++) {
+    //     cout << "Enter number " << i << ": ";
+    //     cin >> num;
+
+    //     if (i == 1) {
+    //         max = min = num;
+    //     }
+
+    //     if (num > max)
+    //         max = num;
+
+    //     if (num < min)
+    //         min = num;
+
+    //     sum += num;
+    // }
+
+    // cout << "Largest: " << max << endl;
+    // cout << "Smallest: " << min << endl;
+    // cout << "Average: " << sum / n << endl;
+
+
+
+
+        // int count1 = 0, count2 = 0, count3 = 0, count4 = 0;
+        // int answer;
+    
+        // for (int i = 1; i <= 20; i++) {
+        //     cout << "Q" << i << ": What is 2 + 2?\n";
+        //     cout << "1) 3\n2) 4\n3) 5\n4) 6\n";
+        //     cout << "Your answer (1-4): ";
+        //     cin >> answer;
+    
+        //     switch (answer) {
+        //         case 1: count1++; break;
+        //         case 2: count2++; break;
+        //         case 3: count3++; break;
+        //         case 4: count4++; break;
+        //         default: cout << "Invalid option\n"; break;
+        //     }
+        // }
+    
+        // cout << "\nAnswer summary:\n";
+        // cout << "Option 1: " << count1 << " times\n";
+        // cout << "Option 2: " << count2 << " times\n";
+        // cout << "Option 3: " << count3 << " times\n";
+        // cout << "Option 4: " << count4 << " times\n";
+    
+
+    
+
+
+
+    // int num, min;
+
+    
+
+    // for (int i = 1; i <= 3; i++) {
+    //     cout << "Enter number " << i << ": ";
+    //     cin >> num;
+
+    //     if (num < min)
+    //         min = num;
+    // }
+
+    // cout << "Minimum number is: " << min << endl;
+
+  
+
+
+
+
+    // int limit;
+    // cout << "Enter a number: ";
+    // cin >> limit;
+
+    // int a = 0, b = 1, next = 0;
+
+    // cout << "Fibonacci series up to " << limit << ":\n";
+
+    // while (a <= limit) {
+    //     cout << a << " ";
+    //     next = a + b;
+    //     a = b;
+    //     b = next;
+    // }
+
+
+
+
+
+    // int num;
+    // cout << "Enter a number: ";
+    // cin >> num;
+
+    // cout << "Armstrong numbers up to " << num << " are:\n";
+
+    // for (int i = 1; i <= num; i++) {
+    //     int original = i;
+    //     int sum = 0;
+
+    //     while (original > 0) {
+    //         int digit = original % 10;      // last digit
+    //         sum += digit * digit * digit;   // cube it and add to sum
+    //         original /= 10;                 // remove last digit
+    //     }
+
+    //     if (sum == i) {
+    //         cout << i << " "; // it's an Armstrong number
+    //     }
+    // }
+
+
+
+
+
+    // int n, marks, high = 0, second = 0;
+    // cout << "Enter number of students: ";
+    // cin >> n;
+
+    // for (int i = 1; i <= n; i++) {
+    //     cout << "Enter marks of student " << i << ": ";
+    //     cin >> marks;
+
+    //     if (marks > high) {
+    //         second = high;
+    //         high = marks;
+    //     } else if (marks > second && marks < high) {
+    //         second = marks;
+    //     }
+    // }
+
+    // cout << "Highest marks: " << high << endl;
+    // cout << "Second highest marks: " << second << endl;
+
+
+
+
+    // int num, sum = 0, count = 0;
+
+    // cout << "Enter numbers (9999 to stop):\n";
+
+    // while (true) {
+    //     cin >> num;
+    //     if (num == 9999)
+    //         break;
+
+    //     sum += num;
+    //     count++;
+    // }
+
+    // if (count > 0)
+    //     cout << "Average = " << (float)sum / count << endl;
+    // else
+    //     cout << "No numbers entered." << endl;
+
+    // }
+
+
+// }
+
+
+    // int num,i;
+  
+    // cout<<"Enter a number::";
+    // cin>>num;
+    // cout<<"Perfect number"<<num<<"are";
+    //  for( i=1;i<=num;i++){  int sum=0;
+    //  for(int j=1;j<i;j++){
+    //     if(i%j==0)
+    //   sum+=j;
+    // }
+    
+     
+    //  if(sum==i)
+    //  cout<<i<<" ";
+    //  }
+    // }
+
+
+
+
+
+    
+
+
+
+// int n,p;
+// cout<<"Enter a prime number size:";
+// cin>>n;
+// cout<<"Prime number "<<n<<" are";
+// for(int i=2;i<n;i++){
+//    p=0;
+//     for(int j=2;j<i;j++){
+//         if(i%j==0){
+//            p=1;
+//             break;
+//         }
+//     }
+//     if(p==0)
+//     cout<<i<<" ";
+// }
+// }
+
+
+// int n,fact,choice;
+// while(true){
+// cout<<"Do you want to calcalue the factorial(1 to yes , 0 to exit)::";
+// cin>>choice;
+// if(choice==1){
+//     cout<<"Enter a number::";
+//     cin>>n;
+//     fact=1;
+//     for(int i=1;i<=n;i++){
+//    fact*=i;
+// }
+//    cout<<"factorial is"<<n<<"are"<<fact<<endl;
+// }
+// else if(choice==0)
+// cout<<"Progrm exit press any key"<<endl;
+// else
+// cout<<"INvalid input";
+
+// }
+
+// }
+
+
+
+
+    // int n,p=0;
+    // cout<<"Enter a prime number::";
+    // cin>>n;
+    // if(n<1)
+    // cout<<" Not a integer number";
+    // for(int i=2;i<n;i++)
+    //  {
+    //     if(n%i==0)
+    //     p++;
+       
+    //  }
+    //  if(p==0)
+    //  cout<<n<<" Prime number";
+    //  else
+    //  cout<<n<<" not a prime number";
+  
+    // }
+
+
+//     int n,largest=0,second=0;
+//     cout<<"Enter a positive number (0 to stop)";
+//     while(true)
+//     {
+//         cin>>n;
+//         if(n==0)
+//         break;
+//         if(n>largest){
+//         second=largest;
+//         largest=n;}
+//        else if(n>second)
+//         second=n;
+
+//     }
+//     cout<<"Second lagest number is::"<<second<<endl;
+
+// }
+
+//     int n,pos=0,neg=0;
+//     cout<<"ENter a unlimited positive numbers::";
+//     cin>>n;
+//     for(int i=0;i<n;i++)
+//     {
+//         cout<<"Enter numbers"<<i+1<<" are";
+//         cin>>n;
+//         if(n>0)
+//         pos++;
+//         if(n<0)
+//         neg++;
+//     }
+//     cout<<"Positive numbers is:"<<pos<<endl;
+//     cout<<"Negative number is::"<<neg;
+
+// }
+
+
+
+
+
+//     int x, n;
+//     long long sum = 0;
+//     cout << "Enter the value of x: ";
+//     cin >> x;
+//     cout << "Enter the value of n: ";
+//     cin >> n;
+//     for (int i = 1; i <= n; i++) {
+//         sum += pow(x, i); // x raised to the power i
+//     }
+//     cout << "Sum of the series x^1 + x^2 + ... + x^" << n << " is: " << sum << endl;
+    
+// }
+
+
+
+//     int x, n = 5;
+//     long long sum = 0;
+//     cout << "Enter the value of x: ";
+//     cin >> x;
+//     // Calculate the series: 1 + 2x + 3x^2 + 4x^3 + 5x^4
+//     for (int i = 1; i <= n; i++) {
+//         sum += i * pow(x, i - 1);
+//     }
+//     cout << "Sum of the series 1 + 2x + 3x^2 + 4x^3 + 5x^4 is: " << sum << endl;
+// }
+
+
+
+//     float sum=0;
+//     for(double i=1;i<=99;i++)
+//     {
+//         sum+=i/(i+1);
+
+//     }
+//     cout<<"SUm is::"<<sum;
+// }
+
+
+
+
+
+    // int n=1024;
+    // while(n>=1)
+    // {
+    //     cout<<n<<"\t";
+    //     n/=2;
+    // }
+    
+    
+
+
+
+    // int n=1;
+    // while(n<=200)
+    // {
+    //     cout<<n<<"\t";
+    //     n*=3;
+    // }
+
+    // int n=8;
+    // while(n<=100)
+    // {
+    //     cout<<n<<"\t";
+    //     if(n<12)
+    //     n+=4;
+    //    else if(n<17)
+    //     n+=5;
+    //     else if(n<24)
+    //     n+=7;
+    //     else if(n<28)
+    //     n+=4;
+    //     else if(n<33)
+    //     n+=5;
+    //     else
+    //     n+=7;
+    // }
+
+
+
+
+//     int limit;
+//     double sum=0;
+//     double fact=1;
+//    cout<<"Enter a limit you want to factorial";
+//    cin>>limit;
+//     for(int i=1;i<=limit;i++)
+//     {
+     
+//         fact*=i;
+//         sum+=i/fact;
+
+//     }
+//     cout<<"Sum of first"<<limit<<"terms"<<sum;
+
+
+
+
+// int sum=0;
+// for(int i=30;i<=60;i+=3)
+// {
+//     sum+=i;
+// }
+// cout<<"SUm is::"<<sum;
+
+// }
+
+
+
+// int limit;
+// double x,sum =1.0,fact =1;
+// cout<<"Enter a value of x::";
+// cin>>x;
+// cout<<"Enter limit:";
+// cin>>limit;
+// for(int i=1;i<=limit;i++)
+// {
+//     fact*=i;
+//     double term=pow(x,i)/fact;
+//     sum+=term;
+// }
+// cout<<"sum of the series is::"<<sum;
+
+
+// }
+
+
+
+//     int num;
+
+//     cout << "Enter a number: ";
+//     cin >> num;
+
+//     cout << "Factors of " << num << " are: ";
+
+//     // Loop from 1 to num and check divisibility
+//     for (int i = 1; i <= num; i++) {
+//         if (num % i == 0) {
+//             cout << i << " ";
+//         }
+//     }
+
+//     cout << endl;
+//     return 0;
+// }
+
+
+
+
+//     int count, number, sum = 0;
+
+//     cout << "Enter the number of values to be summed: ";
+//     cin >> count;
+
+//     // Read and sum the next 'count' numbers
+//     for (int i = 1; i <= count; i++) {
+//         cout << "Enter number " << i << ": ";
+//         cin >> number;
+//         sum += number;
+//     }
+
+//     cout << "Total sum is: " << sum << endl;
+
+//     return 0;
+// }
+
+
+
+
+//     double p = 1000.0;     
+//     double r = 0.05;      
+//     double a;
+//     cout << "Year\tAmount on deposit" << endl;
+//     for (int n = 1; n <= 10; n++) {
+//         a = p * pow(1 + r, n);
+//         cout << n << "\t$" << fixed << setprecision(2) << a << endl;
+//     }
+
+//     return 0;
+// }
+
+
+
+//     int n,sum=0,count=0;
+// cout<<"Enter a how many sum of odd numbers::";
+// cin>>n;
+// for(int i=1;count<n;i+=2)
+// {
+//     sum+=i;
+//     count++;
+// }
+// cout<<"Sum of the first "<<n<<" odd numbers is"<<sum<<endl;
+
+
+
+// int base,start,end;
+// cout<<"Enter a base::";
+// cin>>base;
+// cout<<"enter a start: ";
+// cin>>start;
+// cout<<"Enter a end numer:";
+// cin>>end;
+// cout<<"MUltiple of "<<base<<"between"<<start<<"and"<<endl; 
+// for(int i=start;i<=end;i++)
+// {
+//     if(i%base==0)
+//     {
+//         cout<<i<<"\t";}
+  
+// }
+
+
+
+// int n,count=0;
+// cout<<"Enter a positive number::";
+// cin>>n;
+// if(n==0)
+// count=1;
+// else
+// {
+//     while(n>0)
+//     {
+//       n/=10;
+//       count++;
+//     }
+
+// }
+// cout<<"NUmber of digits is::"<<count;
+
+
+
+
+// int a,b,c,gcd=1;
+// cout<<"ENter a numbers:";
+// cin>>a>>b>>c;
+// int small=a;
+// if(b<small)
+// small=b;
+// if(c<small)
+// small=c;
+// for(int i=1;i<=small;i++)
+// {
+//     if(a%i==0&&b%i==0&&c%i==0)
+//     {
+//         gcd=i;
+//     }
+// }
+// cout<<"GCD digit is::"<< gcd<<endl;
+
+
+
+
+
+// int n,evencount=0,oddcount=0,primecount=0;
+// char choice;
+// bool isPrime(n)
+// if(n<=1)
+// return false;
+// for(int i=2;i<=n/2;i++){
+// if(n%i==0)
+// return false;}
+// return true;
+// do
+// {
+//     cout<<"Enter a number::";
+//     cin>>n;
+//     if(n%2==0){
+//     cout<<n<<" is a even number"<<endl;
+//     evencount++;}
+//     else{
+//     cout<<n<<" Is a odd number"<<endl;
+//     oddcount++;}
+//     if(isPrime(n)){
+
+//         cout<<n<<" is a prime number"<<endl;
+//         primecount++;}
+//         else
+//         cout<<n<<" is not a prime number"<<endl;
+//    cout<<"Do you wnat to another number(y for yes and n for no):"<<endl;
+//     cin>>choice;
+//     }
+ 
+// while(choice=='y'||choice=='Y');
+// cout<<"Total odd numbers is::"<<oddcount<<endl;
+// cout<<"Total even number is::"<<evencount<<endl;
+// cout<<"Total prime number is:"<<primecount<<endl;
+
+
+// }
+
+
+
+
+
+
+    // int sum=0;
+//    for(int i=2;i<100;i+=2)
+//    sum+=i;
+//    cout<<"SUm is::"<<sum<<endl;
+
+
+
+// int i=2;
+// do
+// {
+  
+//    sum+=i;
+//    i+=2;
+// }
+// while(i<100);
+// cout<<"SUm is"<<sum;
+
+
+// int i=2;
+// while(i<100)
+// {
+//     sum+=i;
+//     i+=2;
+// }
+// cout<<"Sum is"<<sum;
+
+
+
+//Question NO:37
+
+
+// double num=1,den=3,sum=0.0;
+// int term=9;
+// for(int i=1;i<=term;i++){
+// int fact=1;
+// for(int j=1;j<=den;j++)
+// fact*=j;
+// sum+=num/fact;
+// num+=4;
+// den+=1;
+// }
+// cout<<"Sum is::"<<sum;
+
+
+//Question NO:39
+
+// int arr[]={1,2,3,4};
+// int n=4;
+// for(int i=0;i<n;i++)
+// cout<<arr[i]<<endl;
+// for(int i=0;i<n;i++){
+// for(int j=i+1;j<n;j++)
+// cout<<arr[i]<<" "<<arr[j]<<endl;}
+// for(int i=0;i<n;i++){
+//     for(int j=i+1;j<n;j++){
+//     for(int k=j+1;k<n;k++){
+//     cout<<arr[i]<<" "<<arr[j]<<" "<<arr[k]<<endl;}}}
+//     cout<<arr[0]<<" "<<arr[1]<<" "<<arr[2]<<" "<<arr[3];
+
+
+//Question NO:40
+
+
+// int start,end;
+// cout<<"Enter a starting number::";
+// cin>>start;
+// cout<<"Enter a ending number::";
+// cin>>end;
+// if(start<end)
+// {
+//     int temp=start;
+//     start=end;
+//     end=temp;
+// }
+// cout<<"Prime number showending with digit 7 between the given range in descending order::";
+// for(int i=start;i>=end;i--)
+// {
+//     if(i%10!=7)
+//     continue;
+//     bool p=true;
+//     if(i<=1)
+//     p=false;
+//     else{
+//         for(int j=2;j<i;j++)
+//         {
+//             if(i%j==0)
+//         {
+//             p=false;
+//             break;
+//         }
+//     }}
+//         if(p)
+//         cout<<i<<" ";
+//         }
+
+
+
+
+
+/Question NO:41
+
+
+    // cout << "Prime palindrome between 100 and 500 are::\n";
+
+    // for (int i = 100; i <= 500; i++) {
+    //     int n = i;
+    //     int rev = 0;
+    //     int num = n;
+
+    //     // Reverse the number
+    //     while (num > 0) {
+    //         int digit = num % 10;
+    //         rev = (rev * 10) + digit;
+    //         num /= 10;
+    //     }
+
+    //     // Check if palindrome
+    //     if (rev == n) {
+    //         // Check if prime
+    //         bool prime = true;
+    //         for (int j = 2; j < n; j++) {
+    //             if (n % j == 0) {
+    //                 prime = false;
+    //                 break;
+    //             }
+    //         }
+
+    //         if (prime)
+    //             cout << n << " ";
+    //     }
+    // }
+
+
+
+
+ //Question NO:42
+
+
+        // int x, y, z, max, lcm;
+        // cout << "Enter three numbers: ";
+        // cin >> x >> y >> z;
+        // if (x >= y && x >= z)
+        //     max = x;
+        // else if (y >= x && y >= z)
+        //     max = y;
+        // else
+        //     max = z;
+        // while (true) {
+        //     if (max % x == 0 && max % y == 0 && max % z == 0) {
+        //         lcm = max;
+        //         break;
+        //     }
+        //     max++;
+        // }
+        // cout << "LCM: " << lcm;
+
+
+
+//Question NO:43
+
+
+//         double earning,sale;
+       
+//         while(true){
+//  cout<<"Ener gross sales for the week::";
+//         cin>>sale;
+//         if(sale==-1){
+//         break;}
+//         earning =200+(sale*0.09);
+//         cout<<"Total earning for this week is::"<<earning<<endl;
+//         }
+//         cout<<"Porgram ended."<<endl;
+        
+
+
+
+//Question NO:44
+
+
+// int start,end;
+// cout<<"Enter a start number::";
+// cin>>start;
+// cout<<"Enter a end number::";
+// cin>>end;
+// for(int i=start;i<=end;i++)
+// cout<<"("<<i<<","<<i*i<<")"<<"\t";
+
+
+//Question NO:45
+
+
+
+// double  burns=3.9;
+// int arr[]={10,20,30,40,50};
+// int i;
+// for( i=0;i<5;i++){
+// double caloriesburned= arr[i]*burns;
+// cout<<"Total minutes"<<arr[i]<<"of calories burned are:"<< caloriesburned<<"calories"<<endl;
+// }
+
+
+
+
+//Question NO:46
+
+
+// int score,count=0;
+// while(true){
+//     cout<<"Enter scroe -1 to stop::";
+//     cin>>score;
+//     if(score==-1)
+//     break;
+//     if(score>60)
+//     count++;
+// }
+// cout<<"Total socre that are above 60 ::"<<count<<endl;
+
+//Question NO:47
+
+
+// int num, pos=0,neg=0;
+// cout<<"Enter a number of elements::";
+// cin>>num;
+// cout<<"Enter number"<<num<<"are"<<endl;
+// for(int i=0;i<=num;i++)
+// {
+//     int n;
+//     cin>>n;
+//     if(n>0)
+//     pos++;
+//     if(n<0)
+//     neg++;
+// }
+// cout<<"Total frequecny of positive numbers::"<<pos<<endl;
+// cout<<"Totral frequency of negative numbers::"<<neg<<endl;
+
+
+
+
+//Question NO:48
+
+
+// for(int i=1;i<=5;i++){
+//     for(int j=1;j<=5;j++)
+//     {
+//         if(i==1||i==5||j==1||j==5)
+//         cout<<"*";
+//         else
+//         cout<<" ";
+//     }
+//     cout<<endl;
+// }
+
+
+
+//Question NO:49
+
+// int n=5;
+// for(int i=1;i<=n;i++)
+// {
+//     for(int j=n;j>i;j--)
+//     cout<<" ";
+//     for(int k=1;k<=i;k++)
+//     cout<<k<<" ";
+//     cout<<endl;
+// }
+
+
+//Question NO:50
+
+
+// for(int i=5;i>=1;i--){
+//     for(int j=1;j<=i;j++)
+//     cout<<j<<" ";
+//     cout<<endl;
+// }
+
+        return 0;
+    }
+    
+   
